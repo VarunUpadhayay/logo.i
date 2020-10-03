@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" class="apple">About</a>
+  <a href="#" class="apple">Services</a>
+  <a href="#" class="apple">Clients</a>
+  <a href="#" class="apple">Contact</a>
+</div>
+
+<div class="container-fluid ">
+	<nav class="row">
+	<div class="col-lg-6 col-md-6 col-12  left ">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+     </div>
+
+     <div class=" col-lg-6 col-12 bg">
+      
+ <ul class="d-flex   align-items-center list-unstyled text-uppercase">
+    <li> logo </li>
+    <!----------------------------search bar--------------------------------->
+       <div class="topnav">
+
+  
+  <div class="search-container">
+    <form action="#">
+      <input type="text" placeholder="Search" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+               <li href="#"class="d-flex   align-items-center list-unstyled text-uppercase login"> Login </li>
+
+                    
+                <li class="d-flex   align-items-center list-unstyled text-uppercase"><i class="fa fa-2x fa-shopping-cart cart" aria-hidden="true"></i></li>
+
+               
+    
+   </ul>
+      
+     	
+
+            <!------------------------------------------>
+
+            <div class="container-fluid row">
+
+              <h1 class="text-center text-dark text-center">Customize your covers</h1>
+            	
+     	<div class="col-lg-6 col-12 ">
+     		<img src="3.webp" class="">
+     		
+     	</div>
+
+     	<div class="col-lg-6 col-12 ">
+     		<img src="15.webp" class=" img1">
+     		
+     	</div>
+     	<div class="col-lg-6 col-12 ">
+     		<img src="7.png" class=" img1 ">
+     		
+     	</div>
+      <div class="col-lg-6 col-12 ">
+        <img src="14.webp" class="img1">
+        
+      </div>
+
+
+
+
+     	</div>
+
+     	
+     </div>
+
+</nav>
+</div>
+
+
+<!-------------------------sidebar javascript----------------------------------->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
